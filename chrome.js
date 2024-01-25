@@ -13,7 +13,9 @@ events.addEventListener("click", function () {
 function foam() {
     let listitem = "";
     for (let i = 0; i < arr.length; i++) {
-        listitem += "<li>" + arr[i] + "</li>";
+
+        listitem += `<li>
+        <a target='_blank' href='${arr[i]}'>${arr[i]}</a></li>`;
     }
     ulEl.innerHTML = listitem;
 }
