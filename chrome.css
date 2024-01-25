@@ -1,0 +1,20 @@
+ *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 2px;
+}
+input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+  margin-bottom: 4px;
+    border: 1px solid #5f9341;
+}
+
+button{
+    color:white;
+    background:green;
+    border:none;
+    font-weight: bold;
+    padding: 10px 20px;
+}
